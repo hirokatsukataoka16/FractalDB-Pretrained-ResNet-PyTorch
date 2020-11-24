@@ -1,13 +1,3 @@
-#!/bin/bash
-
-#$ -l rt_F=1
-#$ -l h_rt=72:00:00
-#$ -j y
-#$ -cwd
-#$ -m abe
-#$ -N FractalDB
-
-source ~/anaconda3/bin/activate pt14
 
 numof_category=1000
 fillrate=0.2

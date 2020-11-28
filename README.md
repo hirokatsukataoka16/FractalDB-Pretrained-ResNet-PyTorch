@@ -1,13 +1,12 @@
 # FractalDB
-Pretraining without Natural Images (ACCV 2020 Oral)
 
 ## Summary
 
 The repository contains a fractal category search and FractalDB renderer in Python.
-Basically, the paper is based on the paper:
+The paper is based on the paper:
 
 
-Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura and Yutaka Satoh, "Pre-training without Natural Images", Asian Conference on Computer Vision (ACCV), 2020. [[Project]](http://hirokatsukataoka.net/pdf/accv20_kataoka_fractaldb.pdf) [[PDF]](http://hirokatsukataoka.net/pdf/accv20_kataoka_fractaldb.pdf)
+Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura and Yutaka Satoh, "Pre-training without Natural Images", Asian Conference on Computer Vision (ACCV), 2020. [[Project]](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/) [[PDF]](https://openaccess.thecvf.com/content/ACCV2020/papers/Kataoka_Pre-training_without_Natural_Images_ACCV_2020_paper.pdf) [[Dataset](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/#dataset)] [[Oral](http://hirokatsukataoka.net/pdf/accv20_kataoka_oral.pdf)] [[Poster](http://hirokatsukataoka.net/pdf/accv20_kataoka_poster.pdf)]
 
 ## Citation
 
@@ -28,7 +27,7 @@ If you use this code, please cite the following paper:
 
 ## Execution file
 
-We prepared execution file ```exe.sh``` in the top directory. The execution file contains our recommendation. Please type the following commands on your environment.
+We prepared execution file ```exe.sh``` in the top directory. The execution file contains our recommended parameters. Please type the following commands on your environment.
 
 ```bash
 chmod +x exe.sh
@@ -103,8 +102,9 @@ do
 done
 wait
 ```
+The number (40) means 40 threads in processing. Please change the number and structure in ```data/csv_rate0.2_category1000_parallel```.
 
-The folder structure is constructed as follows.
+The structure of rendered FractalDB is constructed as follows.
 
 ```misc
 ./

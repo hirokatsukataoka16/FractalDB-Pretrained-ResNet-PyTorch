@@ -9,7 +9,7 @@ Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke 
 
 ## Updates
 
-**Update (Jan. 10, 2021)**
+**Update (Jan. 8, 2021)**
 * Pre-training & Fine-tuning codes
 * Downloadable pre-training models [[Link]](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing)
 * Multi-thread preparation with ```param_search/parallel_dir.py```

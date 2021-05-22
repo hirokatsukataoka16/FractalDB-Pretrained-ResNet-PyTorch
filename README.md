@@ -5,13 +5,17 @@
 The repository contains a Fractal Category Search, FractalDB Construction, Pre-training, and Fine-tuning in Python/PyTorch.
 
 The repository is based on the paper:
-Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura and Yutaka Satoh, "Pre-training without Natural Images", Asian Conference on Computer Vision (ACCV), 2020. <font color="red">(Best Paper Honorable Mention Award)</font> [[Project]](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/) [[PDF]](https://openaccess.thecvf.com/content/ACCV2020/papers/Kataoka_Pre-training_without_Natural_Images_ACCV_2020_paper.pdf) [[Dataset]](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/#dataset) [[Oral]](http://hirokatsukataoka.net/pdf/accv20_kataoka_oral.pdf) [[Poster]](http://hirokatsukataoka.net/pdf/accv20_kataoka_poster.pdf)
+Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke Yamada, Nakamasa Inoue, Akio Nakamura and Yutaka Satoh, "Pre-training without Natural Images", Asian Conference on Computer Vision (ACCV), 2020. <font color="red">(Best Paper Honorable Mention Award)</font> [[Project](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/)] [[PDF](https://openaccess.thecvf.com/content/ACCV2020/papers/Kataoka_Pre-training_without_Natural_Images_ACCV_2020_paper.pdf)] [[Dataset](https://hirokatsukataoka16.github.io/Pretraining-without-Natural-Images/#dataset)] [[Oral](http://hirokatsukataoka.net/pdf/accv20_kataoka_oral.pdf)] [[Poster](http://hirokatsukataoka.net/pdf/accv20_kataoka_poster.pdf)]
 
 ## Updates
 
+**Update (May 22, 2021)**
+* Related project "Can Vision Transformers Learn without Natural Images?" was released. We achieved to train vision transformers (ViT) without natural images. [[Project](https://hirokatsukataoka16.github.io/Vision-Transformers-without-Natural-Images/)] [[PDF](https://arxiv.org/abs/2103.13023)] [[Code](https://github.com/nakashima-kodai/FractalDB-Pretrained-ViT-PyTorch)]
+
+
 **Update (Jan. 8, 2021)**
 * Pre-training & Fine-tuning codes
-* Downloadable pre-training models [[Link]](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing)
+* Downloadable pre-training models [[Link](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing)]
 * Multi-thread preparation with ```param_search/parallel_dir.py```
 * Divide execution files into single-thread processing ```exe.sh``` and multi-thread processing ```exe_parallel.sh``` for FractalDB rendering.
 
@@ -37,7 +41,7 @@ If you use this code, please cite the following paper:
 * Graphic board (worked at single/four NVIDIA V100)
 
 * Fine-tuning datasets
-If you would like to fine-tune on an image dataset, you must prepare conventional or self-defined datasets. [This repository](https://github.com/chatflip/ImageRecognitionDataset) includes a downloader as an optional way. To use the following execution files ```exe.sh``` and ```exe_parallel.sh```, you should set the downloaded CIFAR-10 dataset in ```./data``` as the following structure.
+If you would like to fine-tune on an image dataset, you must prepare conventional or self-defined datasets. [[This repository](https://github.com/chatflip/ImageRecognitionDataset)] includes a downloader as an optional way. To use the following execution files ```exe.sh``` and ```exe_parallel.sh```, you should set the downloaded CIFAR-10 dataset in ```./data``` as the following structure.
 
 ```misc
 ./
@@ -168,7 +172,7 @@ These are the important parameters in pre-training.
 ```
 
 **Pre-trained models**
-Our pre-trained models are available in this [Link](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing).
+Our pre-trained models are available in this [[Link](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing)].
 
 We have mainly prepared two different pre-trained models. These pre-trained models are trained on FractalDB in different categories (1k and 10k) and the same number of instances (1k).
 ```misc

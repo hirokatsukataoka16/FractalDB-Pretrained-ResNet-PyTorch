@@ -10,6 +10,7 @@ Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke 
 ## Updates
 
 **Update (Mar 23, 2022)**
+
 * The paper was accepted to International Journal of Computer Vision (IJCV). We updated the scripts and pre-trained models in the extended experiments. [[PDF](https://link.springer.com/content/pdf/10.1007/s11263-021-01555-8.pdf)] [[Pre-trained Models](https://drive.google.com/drive/folders/1tTD-cKKEgBjacCi4ZJ6bRYOv6FsjtGt_?usp=sharing)]
 
 
@@ -28,7 +29,7 @@ Hirokatsu Kataoka, Kazushige Okayasu, Asato Matsumoto, Eisuke Yamagata, Ryosuke 
 If you use this code, please cite the following paper:
 
 ```bibtex
-@inproceedings{KataokaIJCV2022,
+@article{KataokaIJCV2022,
   author={Kataoka, Hirokatsu and Okayasu, Kazushige and Matsumoto, Asato and Yamagata, Eisuke and Yamada, Ryosuke and Inoue, Nakamasa and Nakamura, Akio and Satoh, Yutaka},
   title={Pre-training without Natural Images},
   article={International Journal on Computer Vision (IJCV)},
